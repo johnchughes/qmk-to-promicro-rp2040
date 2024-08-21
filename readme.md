@@ -13,7 +13,9 @@ This guide has only been tested on windows. I am unable to offer any steps for l
  - Confgirue our keys using the interace, Once you are happy, click the download keymap.json button
  - open a terminal (or QMK MSYS if you did not add to your path)
  - import the json file by running  `qmk import-keymap <path to json file>`
- - for the next step, the `-km` flag will be the .json file name without the extension
+ - for the next step
+  - `-km` flag will be the .json file name without the extension
+  - `-kb` flag will be the keyboard value from [QMK Configuratior](https://config.qmk.fm)
  - compile the layout ` qmk compile -kb <keyboard> -km <key_mapping> -e CONVERT_TO=rp2040_ce`
  - this will create a .uf2 file in `~/qmk_firmware`
  - connect your keyboard to your computer and copy the generated UF2 file to your controller.
