@@ -22,7 +22,7 @@ This guide has only been tested on windows. I am unable to offer any steps for l
  - this will create a .uf2 file in `~/qmk_firmware`
  - connect your keyboard to your computer and copy the generated UF2 file to your controller.
 
-# Flashing
+## Flashing
 
  - disconnect the TRS cable from bothh sides
  - plug in the usb on one side and double press the boot button, your keyboard should show as a storage device on your system.
